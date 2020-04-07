@@ -82,7 +82,7 @@ static const char *termcmd[]  = { "st", NULL };
 static const char *upvol[]   = { "/home/yunlang/MyConfig/scripts/vol-up.sh",  NULL };
 static const char *downvol[] = { "/home/yunlang/MyConfig/scripts/vol-down.sh",  NULL };
 static const char *mutevol[] = { "/home/yunlang/MyConfig/scripts/vol-toggle.sh",  NULL };
-
+static const char *screenshot[] = {"/home/yunlang/MyConfig/scripts/screenshot.sh", NULL};
 static const char *wpcmd[]  = { "/home/yunlang/MyConfig/scripts/wp-change.sh", NULL };
 
 static const char scratchpadname[] = "scratchpad";
@@ -101,7 +101,8 @@ static Key keys[] = {
 	{ 0,                   XF86XK_AudioLowerVolume, spawn,     {.v = downvol } },
 	{ 0,                   XF86XK_AudioMute,        spawn,     {.v = mutevol } },
 	{ 0,                   XF86XK_AudioRaiseVolume, spawn,     {.v = upvol   } },
-  { MODKEY,              XK_c,                    spawn,          {.v = wpcmd } },
+  { MODKEY|ShiftMask,             XK_s,      spawn,     {.v = screenshot } },
+  { MODKEY,                       XK_c,           spawn,     {.v = wpcmd } },
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
 	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } },
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
