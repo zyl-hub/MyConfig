@@ -1,4 +1,5 @@
 /* See LICENSE file for copyright and license details. */
+#include <X11/X.h>
 #include <ctype.h>
 #include <locale.h>
 #include <math.h>
@@ -540,7 +541,7 @@ insert:
 		if (lines > 0)
 			return;
 		/* fallthrough */
-	case XK_Up:
+	case XK_ISO_Left_Tab:
 		if (sel && sel->left && (sel = sel->left)->right == curr) {
 			curr = prev;
 			calcoffsets();
