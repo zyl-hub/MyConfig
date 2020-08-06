@@ -83,6 +83,7 @@ static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "120x34
 static const char *upvol[]   = { "/home/yunlang/MyConfig/scripts/vol-up.sh",  NULL };
 static const char *downvol[] = { "/home/yunlang/MyConfig/scripts/vol-down.sh",  NULL };
 static const char *mutevol[] = { "/home/yunlang/MyConfig/scripts/vol-toggle.sh",  NULL };
+static const char *scrotscreenshots[] = { "scrot", NULL };
 
 static const char *screenshot[] = {"/home/yunlang/MyConfig/scripts/screenshot.sh", NULL};
 static const char *wpcmd[]  = { "/home/yunlang/MyConfig/scripts/wp-change.sh", NULL };
@@ -91,6 +92,7 @@ static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,             XK_Return, spawn,          {.v = termcmd } },
+	{ MODKEY,             XK_w, spawn,          {.v = scrotscreenshots } },
 	{ MODKEY,                       XK_s,  togglescratch,  {.v = scratchpadcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY|ShiftMask,             XK_j,      rotatestack,    {.i = +1 } },
