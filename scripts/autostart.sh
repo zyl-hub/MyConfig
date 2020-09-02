@@ -5,7 +5,7 @@
 fcitx &
 # feh --bg-scale /home/yl/WallPaper/690.jpg &
 feh --bg-scale /home/yl/WallPaper/AKFox.jpg &
-#picom -b &
+picom -b &
 # xrandr --output eDP-1 --off
 # xrandr --output eDP-1 --auto
 # echo qwfpars-2003 | sudo -S modprobe nvidia
