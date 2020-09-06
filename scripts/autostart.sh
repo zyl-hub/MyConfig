@@ -1,10 +1,11 @@
 #!/bin/bash
 
-/bin/bash ~/MyConfig/scripts/dwm-status.sh &
+#/bin/bash ~/MyConfig/scripts/dwm-status.sh &
+/bin/bash ~/dwm-bar/dwm_bar.sh &
 #redshift-gtk &
 fcitx &
 feh --bg-scale /home/yl/WallPaper/AKFox.jpg &
-#picom -b &
+picom -b &
 # xrandr --output eDP-1 --off
 # xrandr --output eDP-1 --auto
 # echo qwfpars-2003 | sudo -S modprobe nvidia
