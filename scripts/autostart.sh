@@ -1,7 +1,6 @@
 #!/bin/bash
 
-#/bin/bash ~/MyConfig/scripts/dwm-status.sh &
-/bin/bash ~/dwm-bar/dwm_bar.sh &
+/bin/bash ~/MyConfig/scripts/dwm-status.sh &
 #redshift-gtk &
 fcitx &
 feh --bg-scale /home/yl/WallPaper/AKFox.jpg &
