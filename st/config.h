@@ -7,6 +7,7 @@
  */
 //static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
 static char *font = "Source Code Pro:pixelsize=16:antialias=true:autohint=true";
+//static char *font = "WenQuanYi Micro Hei:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
