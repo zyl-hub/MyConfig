@@ -4,7 +4,10 @@
 /bin/bash ~/dwm-bar/dwm_bar.sh &
 #redshift-gtk &
 fcitx &
-feh --bg-scale /home/yl/WallPaper/AKFox.jpg &
+feh --bg-scale /home/yl/WallPaper/BaronLakes.jpg &
+#feh --bg-scale /home/yl/WallPaper/EiffelBelow.jpg &
+#feh --bg-scale /home/yl/WallPaper/FranceMenton.jpg &
+#feh --bg-scale /home/yl/WallPaper/AKFox.jpg &
 picom -b &
 # xrandr --output eDP-1 --off
 # xrandr --output eDP-1 --auto
