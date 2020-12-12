@@ -19,3 +19,4 @@ picom -b &
 # /bin/bash ~/MyConfig/scripts/setxmodmap-colemak.sh &
 nm-applet --no-agent &
 xfce4-power-manager &
+syncthing &
