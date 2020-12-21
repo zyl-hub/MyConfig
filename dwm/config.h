@@ -82,9 +82,11 @@ static const char* scrotscreenshots[] = { "scrot", NULL };
 
 static const char* screenshot[] = { "/home/yl/MyConfig/scripts/screenshot.sh", NULL };
 static const char* wpcmd[] = { "/home/yl/MyConfig/scripts/wp-change.sh", NULL };
+static const char* mathpix[] = { "mathpix", NULL };
 
 static Key keys[] = {
     /* modifier                     key        function        argument */
+    { MODKEY, XK_m, spawn, { .v = mathpix } },
     { MODKEY, XK_p, spawn, { .v = dmenucmd } },
     { MODKEY, XK_Return, spawn, { .v = termcmd } },
     { MODKEY, XK_s, togglescratch, { .v = scratchpadcmd } },
@@ -126,7 +128,7 @@ static Key keys[] = {
     { MODKEY, XK_q, killclient, { 0 } },
     { MODKEY, XK_t, setlayout, { .v = &layouts[0] } },
     { MODKEY, XK_f, setlayout, { .v = &layouts[1] } },
-    { MODKEY, XK_m, setlayout, { .v = &layouts[2] } },
+    { MODKEY | ShiftMask, XK_m, setlayout, { .v = &layouts[2] } },
     { MODKEY | ShiftMask, XK_f, fullscreen, { 0 } },
     { MODKEY, XK_space, setlayout, { 0 } },
     { MODKEY | ShiftMask, XK_space, togglefloating, { 0 } },
