@@ -3,7 +3,7 @@
 #/bin/bash ~/MyConfig/scripts/dwm-status.sh &
 /bin/bash ~/dwm-bar/dwm_bar.sh &
 #redshift-gtk &
-fcitx &
+fcitx5 &
 feh --bg-scale /home/yl/WallPaper/BaronLakes.jpg &
 #feh --bg-scale /home/yl/WallPaper/EiffelBelow.jpg &
 #feh --bg-scale /home/yl/WallPaper/FranceMenton.jpg &
