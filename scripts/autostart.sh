@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clash &
 /bin/bash ~/MyConfig/scripts/dwm-status.sh &
 #/bin/bash ~/dwm-bar/dwm_bar.sh &
 #redshift &
