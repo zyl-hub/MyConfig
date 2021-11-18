@@ -1,10 +1,10 @@
 #!/bin/bash
 
 /bin/bash ~/MyConfig/scripts/dwm-status.sh &
-/bin/bash ~/dwm-bar/dwm_bar.sh &
-redshift &
+#/bin/bash ~/dwm-bar/dwm_bar.sh &
+#redshift &
 fcitx5 &
-feh --bg-scale /home/yl/wallpaper/wallhaven-x8eydz.jpg &
+feh --bg-scale /home/yl/wallPaper/eye.png &
 #feh --bg-scale /home/yl/WallPaper/EiffelBelow.jpg &
 #feh --bg-scale /home/yl/WallPaper/FranceMenton.jpg &
 #feh --bg-scale /home/yl/WallPaper/AKFox.jpg &
